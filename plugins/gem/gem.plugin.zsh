@@ -5,3 +5,11 @@ alias gemp="gem push *.gem"
 function gemy {
 	gem yank $1 -v $2
 }
+
+
+# _gem_install() {
+#     __gem_gemnames_or_installupdate_options '-v' '\
+#         --platform=
+#         --version=
+#         --prerelease --no-prerelease'
+# }
